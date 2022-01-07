@@ -1,0 +1,44 @@
+.container {
+  max-width: 1250px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 100px;
+}
+
+.creatures {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.monsters {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.materials {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.equipment {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.treasure {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex-basis: calc(100% / 7);
+}

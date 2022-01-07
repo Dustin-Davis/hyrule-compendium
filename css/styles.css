@@ -1,0 +1,56 @@
+body {
+  background-image: url("/images/fullBackground.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+  background: #2271b6;
+  display: table;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: 70%;
+}
+
+.navbar .navlist {
+  list-style: none;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.navbar .navlist a {
+  font-family: Spectral, serif;
+  color: #faf4de;
+  text-decoration: none;
+  position: relative;
+  padding: 15px 10px;
+  font-size: 22px;
+  display: block;
+}
+
+.navbar .navlist a + a {
+  margin-left: 16px;
+}
+
+.navbar .navlist a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #fefefe;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease;
+  transform: scaleX(0);
+}
+
+.navbar a:hover::after {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+
+.background {
+  background-color: #2271b6;
+}
