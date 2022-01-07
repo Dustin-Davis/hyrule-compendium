@@ -44,7 +44,7 @@
 }
 
 @media screen and (min-width: 375px) {
-  .container {
+  .container .navbar {
     max-width: 1250px;
   }
 }
