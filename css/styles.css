@@ -54,3 +54,7 @@ body {
 .background {
   background-color: #2271b6;
 }
+
+.item {
+  padding: 2rem;
+}

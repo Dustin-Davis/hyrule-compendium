@@ -19,32 +19,32 @@ function getCreatures() {
     var Container = document.createElement('div');
     var name = document.createElement('h2');
     var IMG = document.createElement('img');
-    var description = document.createElement('p');
-    var commonLocation = document.createElement('ul');
-    var Location = document.createElement('li');
-    var Drops = document.createElement('ul');
-    var drops = document.createElement('li');
+    // var description = document.createElement('p');
+    // var commonLocation = document.createElement('ul');
+    // var Location = document.createElement('li');
+    // var Drops = document.createElement('ul');
+    // var drops = document.createElement('li');
 
     name.innerText = item.name;
     IMG.src = item.image;
-    description.innerText = item.description;
-    commonLocation.innerText = 'Common Locations:';
-    Location.innerText = `${item.common_locations}`;
-    Drops.innerText = 'Drops:';
-    drops.innerText = `${item.drops}`;
+    // description.innerText = item.description;
+    // commonLocation.innerText = 'Common Locations:';
+    // Location.innerText = `${item.common_locations}`;
+    // Drops.innerText = 'Drops:';
+    // drops.innerText = `${item.drops}`;
 
-    commonLocation.appendChild(Location);
-    Drops.appendChild(drops);
-    Container.appendChild(name);
+    // commonLocation.appendChild(Location);
+    // Drops.appendChild(drops);
     Container.appendChild(IMG);
-    Container.appendChild(description);
-    Container.appendChild(commonLocation);
-    Container.appendChild(Drops);
+    Container.appendChild(name);
+    // Container.appendChild(description);
+    // Container.appendChild(commonLocation);
+    // Container.appendChild(Drops);
 
     Container.classList.add('item');
     name.classList.add('name');
     IMG.classList.add('image');
-    description.classList.add('description');
+    // description.classList.add('description');
 
     document.getElementsByClassName('creatures')[0].appendChild(Container);
   });
@@ -59,32 +59,32 @@ function getCreaturesFood() {
     var Container = document.createElement('div');
     var name = document.createElement('h2');
     var IMG = document.createElement('img');
-    var description = document.createElement('p');
-    var commonLocation = document.createElement('ul');
-    var Location = document.createElement('li');
-    var Drops = document.createElement('ul');
-    var drops = document.createElement('li');
+    // var description = document.createElement('p');
+    // var commonLocation = document.createElement('ul');
+    // var Location = document.createElement('li');
+    // var Drops = document.createElement('ul');
+    // var drops = document.createElement('li');
 
     name.innerText = item.name;
     IMG.src = item.image;
-    description.innerText = item.description;
-    commonLocation.innerText = 'Common Locations:';
-    Location.innerText = `${item.common_locations}`;
-    Drops.innerText = 'Drops:';
-    drops.innerText = `${item.drops}`;
+    // description.innerText = item.description;
+    // commonLocation.innerText = 'Common Locations:';
+    // Location.innerText = `${item.common_locations}`;
+    // Drops.innerText = 'Drops:';
+    // drops.innerText = `${item.drops}`;
 
-    commonLocation.appendChild(Location);
-    Drops.appendChild(drops);
-    Container.appendChild(name);
+    // commonLocation.appendChild(Location);
+    // Drops.appendChild(drops);
     Container.appendChild(IMG);
-    Container.appendChild(description);
-    Container.appendChild(commonLocation);
-    Container.appendChild(Drops);
+    Container.appendChild(name);
+    // Container.appendChild(description);
+    // Container.appendChild(commonLocation);
+    // Container.appendChild(Drops);
 
     Container.classList.add('item');
     name.classList.add('name');
     IMG.classList.add('image');
-    description.classList.add('description');
+    // description.classList.add('description');
 
     document.getElementsByClassName('creatures')[0].appendChild(Container);
   });
@@ -99,32 +99,32 @@ function getMonsters() {
     var Container = document.createElement('div');
     var name = document.createElement('h2');
     var IMG = document.createElement('img');
-    var description = document.createElement('p');
-    var commonLocation = document.createElement('ul');
-    var Location = document.createElement('li');
-    var Drops = document.createElement('ul');
-    var drops = document.createElement('li');
+    // var description = document.createElement('p');
+    // var commonLocation = document.createElement('ul');
+    // var Location = document.createElement('li');
+    // var Drops = document.createElement('ul');
+    // var drops = document.createElement('li');
 
     name.innerText = item.name;
     IMG.src = item.image;
-    description.innerText = item.description;
-    commonLocation.innerText = 'Common Locations:';
-    Location.innerText = `${item.common_locations}`;
-    Drops.innerText = 'Drops:';
-    drops.innerText = `${item.drops}`;
+    // description.innerText = item.description;
+    // commonLocation.innerText = 'Common Locations:';
+    // Location.innerText = `${item.common_locations}`;
+    // Drops.innerText = 'Drops:';
+    // drops.innerText = `${item.drops}`;
 
-    commonLocation.appendChild(Location);
-    Drops.appendChild(drops);
-    Container.appendChild(name);
+    // commonLocation.appendChild(Location);
+    // Drops.appendChild(drops);
     Container.appendChild(IMG);
-    Container.appendChild(description);
-    Container.appendChild(commonLocation);
-    Container.appendChild(Drops);
+    Container.appendChild(name);
+    // Container.appendChild(description);
+    // Container.appendChild(commonLocation);
+    // Container.appendChild(Drops);
 
     Container.classList.add('item');
     name.classList.add('name');
     IMG.classList.add('image');
-    description.classList.add('description');
+    // description.classList.add('description');
 
     document.getElementsByClassName('monsters')[0].appendChild(Container);
   });
@@ -139,38 +139,38 @@ function getMaterials() {
     var Container = document.createElement('div');
     var name = document.createElement('h2');
     var IMG = document.createElement('img');
-    var description = document.createElement('p');
-    var commonLocation = document.createElement('ul');
-    var Location = document.createElement('li');
-    var CookingEffect = document.createElement('ul');
-    var effects = document.createElement('li');
-    var HeartsRecovered = document.createElement('ul');
-    var recovered = document.createElement('li');
+    // var description = document.createElement('p');
+    // var commonLocation = document.createElement('ul');
+    // var Location = document.createElement('li');
+    // var CookingEffect = document.createElement('ul');
+    // var effects = document.createElement('li');
+    // var HeartsRecovered = document.createElement('ul');
+    // var recovered = document.createElement('li');
 
     name.innerText = item.name;
     IMG.src = item.image;
-    description.innerText = item.description;
-    commonLocation.innerText = 'Common Locations:';
-    Location.innerText = `${item.common_locations}`;
-    CookingEffect.innerText = 'Cooking Effects:';
-    effects.innerText = `${item.cooking_effect}`;
-    HeartsRecovered.innerText = 'Hearts Recovered:';
-    recovered.innerText = `${item.hearts_recovered}`;
+    // description.innerText = item.description;
+    // commonLocation.innerText = 'Common Locations:';
+    // Location.innerText = `${item.common_locations}`;
+    // CookingEffect.innerText = 'Cooking Effects:';
+    // effects.innerText = `${item.cooking_effect}`;
+    // HeartsRecovered.innerText = 'Hearts Recovered:';
+    // recovered.innerText = `${item.hearts_recovered}`;
 
-    commonLocation.appendChild(Location);
-    CookingEffect.appendChild(effects);
-    HeartsRecovered.appendChild(recovered);
-    Container.appendChild(name);
+    // commonLocation.appendChild(Location);
+    // CookingEffect.appendChild(effects);
+    // HeartsRecovered.appendChild(recovered);
     Container.appendChild(IMG);
-    Container.appendChild(description);
-    Container.appendChild(commonLocation);
-    Container.appendChild(CookingEffect);
-    Container.appendChild(HeartsRecovered);
+    Container.appendChild(name);
+    // Container.appendChild(description);
+    // Container.appendChild(commonLocation);
+    // Container.appendChild(CookingEffect);
+    // Container.appendChild(HeartsRecovered);
 
     Container.classList.add('item');
     name.classList.add('name');
     IMG.classList.add('image');
-    description.classList.add('description');
+    // description.classList.add('description');
 
     document.getElementsByClassName('materials')[0].appendChild(Container);
   });
@@ -185,29 +185,29 @@ function getEquipment() {
     var Container = document.createElement('div');
     var name = document.createElement('h2');
     var IMG = document.createElement('img');
-    var description = document.createElement('p');
-    var Stats = document.createElement('ul');
-    var StatsAttack = document.createElement('li');
-    var StatsDefense = document.createElement('li');
+    // var description = document.createElement('p');
+    // var Stats = document.createElement('ul');
+    // var StatsAttack = document.createElement('li');
+    // var StatsDefense = document.createElement('li');
 
     name.innerText = item.name;
     IMG.src = item.image;
-    description.innerText = item.description;
-    Stats.innerText = 'Stats';
-    StatsAttack.innerText = `Attack: ${item.attack}`;
-    StatsDefense.innerText = `Defense: ${item.defense}`;
+    // description.innerText = item.description;
+    // Stats.innerText = 'Stats';
+    // StatsAttack.innerText = `Attack: ${item.attack}`;
+    // StatsDefense.innerText = `Defense: ${item.defense}`;
 
-    Stats.appendChild(StatsAttack);
-    Stats.appendChild(StatsDefense);
-    Container.appendChild(name);
+    // Stats.appendChild(StatsAttack);
+    // Stats.appendChild(StatsDefense);
     Container.appendChild(IMG);
-    Container.appendChild(description);
-    Container.appendChild(Stats);
+    Container.appendChild(name);
+    // Container.appendChild(description);
+    // Container.appendChild(Stats);
 
     Container.classList.add('item');
     name.classList.add('name');
     IMG.classList.add('image');
-    description.classList.add('description');
+    // description.classList.add('description');
 
     document.getElementsByClassName('equipment')[0].appendChild(Container);
   });
@@ -223,32 +223,32 @@ function getTreasure() {
     var Container = document.createElement('div');
     var name = document.createElement('h2');
     var IMG = document.createElement('img');
-    var description = document.createElement('p');
-    var commonLocation = document.createElement('ul');
-    var Location = document.createElement('li');
-    var Drops = document.createElement('ul');
-    var drops = document.createElement('li');
+    // var description = document.createElement('p');
+    // var commonLocation = document.createElement('ul');
+    // var Location = document.createElement('li');
+    // var Drops = document.createElement('ul');
+    // var drops = document.createElement('li');
 
     name.innerText = item.name;
     IMG.src = item.image;
-    description.innerText = item.description;
-    commonLocation.innerText = 'Common Locations:';
-    Location.innerText = `${item.common_locations}`;
-    Drops.innerText = 'Drops:';
-    drops.innerText = `${item.drops}`;
+    // description.innerText = item.description;
+    // commonLocation.innerText = 'Common Locations:';
+    // Location.innerText = `${item.common_locations}`;
+    // Drops.innerText = 'Drops:';
+    // drops.innerText = `${item.drops}`;
 
-    commonLocation.appendChild(Location);
-    Drops.appendChild(drops);
-    Container.appendChild(name);
+    // commonLocation.appendChild(Location);
+    // Drops.appendChild(drops);
     Container.appendChild(IMG);
-    Container.appendChild(description);
-    Container.appendChild(commonLocation);
-    Container.appendChild(Drops);
+    Container.appendChild(name);
+    // Container.appendChild(description);
+    // Container.appendChild(commonLocation);
+    // Container.appendChild(Drops);
 
     Container.classList.add('item');
     name.classList.add('name');
     IMG.classList.add('image');
-    description.classList.add('description');
+    // description.classList.add('description');
 
     document.getElementsByClassName('treasure')[0].appendChild(Container);
   });
