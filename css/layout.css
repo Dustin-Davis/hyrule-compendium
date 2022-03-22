@@ -1,4 +1,4 @@
-.container {
+/* .container {
   max-width: 1250px;
   display: flex;
   margin-left: auto;
@@ -10,11 +10,18 @@
   flex-wrap: wrap;
 }
 
-.image {
-  width: 100px;
+.column-full {
+  width: 100%;
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.category {
+.image {
+  width: 125px;
+}
+
+.creatures {
   display: flex;
   flex-wrap: wrap;
 }
@@ -43,8 +50,8 @@
   flex-basis: calc(100% / 7);
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 390px) {
   .container .navbar {
-    max-width: 1250px;
+    max-width: 300px;
   }
-}
+} */
