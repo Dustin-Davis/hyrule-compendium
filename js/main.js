@@ -56,8 +56,6 @@ function getCategories(category) {
 }
 getCategories('equipment');
 
-// scroll to top
-
 const scrollTop = document.querySelector('.scroll-top');
 
 window.addEventListener('scroll', () => {
