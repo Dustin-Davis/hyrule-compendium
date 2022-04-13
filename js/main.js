@@ -49,7 +49,7 @@ function getCategories(category) {
     Container.classList.add('item');
     Name.classList.add('name');
     IMG.classList.add('image');
-    Description.classList.add('Description');
+    Description.classList.add('description');
 
     document.getElementsByClassName('flex-wrapper')[0].appendChild(Container);
   });
