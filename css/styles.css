@@ -46,7 +46,7 @@ h1 {
 }
 
 .equipment .flex-wrapper .item .name {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .equipment .flex-wrapper .item .image {
@@ -55,7 +55,7 @@ h1 {
 }
 
 .equipment .flex-wrapper .item .description {
-  font-size: 32px;
+  font-size: 18px;
   margin: 10px 30px 0;
 }
 
@@ -70,7 +70,6 @@ h1 {
   position: fixed;
   bottom: 20px;
   left: 90%;
-  transform: translateX(-50%);
   transform: translateX(-50%);
   font-family: sans-serif;
   font-size: 20px;
