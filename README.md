@@ -4,7 +4,7 @@ A web application for people who want to know the attack and defence and locatio
 
 I built this web app for people like me who like to collect all things in video games and to make it easier to locate the weapons. 
 
-You can check this web app out here: https://dustin-davis.github.io/ajax-project/
+You can check this web app out here: https://dustin-davis.github.io/hyrule-compendium/
 
 A dynamic HTML, CSS, and JavaScript solo project.
 
