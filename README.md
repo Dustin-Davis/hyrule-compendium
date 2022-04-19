@@ -15,11 +15,9 @@ Try the application live at https://dustin-davis.github.io/hyrule-compendium/
 
 ## Features
 
--User can see a picture of the equipment.
-
--User can see a description of the items.
-
--User can see attack and defense.
+- User can see a picture of the equipment.
+- User can see a description of the items.
+- User can see attack and defense.
 
 ## Preview
 
