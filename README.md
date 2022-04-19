@@ -7,6 +7,7 @@ A web application for people who want to know the attack and defence and locatio
 - HTML5
 - CSS3
 - Javascript
+- Hyrule Compendium API: https://gadhagod.github.io/Hyrule-Compendium-API/#/
 
 
 ## Live Demo
