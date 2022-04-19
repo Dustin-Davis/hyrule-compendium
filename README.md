@@ -1,6 +1,6 @@
 # Hyrule-Compendium
 
-A web application for people who want to know the attack and defence and location for all weapons in The Legend of Zelda Breath of the Wild.
+A web application for people who want to know the attack and defense and location for all weapons in The Legend of Zelda Breath of the Wild.
 
 ## Technologies Used
 
