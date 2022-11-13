@@ -16,7 +16,9 @@ function getCategories(category) {
     newArray = appData.data;
   }
 
-  Array.from(newArray).sort((a, b) => a.id - b.id).forEach(item => {
+  Array.from(newArray).sort((a, b) => a.id - b.id).forEach((item, index) => {
+
+    if (index >= 6) return;
 
     const Container = document.createElement('div');
     const Name = document.createElement('h2');
