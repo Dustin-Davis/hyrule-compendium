@@ -5,6 +5,8 @@ const fetchAPI = url => {
   return request.responseText;
 };
 
+const creatures = document.getElementById('creatures');
+
 function getCategories(category) {
   const app = fetchAPI('https://botw-compendium.herokuapp.com/api/v2/category' + '/' + category);
   const appData = JSON.parse(app);
@@ -57,6 +59,8 @@ function getCategories(category) {
   });
 }
 getCategories('equipment');
+
+creatures.addEventListener('click', () => { getCategories('creatures'); });
 
 const scrollTop = document.querySelector('.scroll-top');
 
