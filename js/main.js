@@ -5,6 +5,8 @@ const fetchAPI = url => {
   return request.responseText;
 };
 
+const creatures = document.getElementById('creatures');
+
 function getCategories(category) {
   const app = fetchAPI('https://botw-compendium.herokuapp.com/api/v2/category' + '/' + category);
   const appData = JSON.parse(app);
@@ -34,7 +36,7 @@ function getCategories(category) {
     IMG.src = item.image;
     Description.innerHTML = item.description;
     commonLocation.innerText = 'Common Locations:';
-    Location.innerText = `${item.common_locations}`.replaceAll(null, '');
+    Location.innerText = `${item.common_locations}`.replaceAll(null, 'No Common Locations');
     Stats.innerHTML = 'Stats';
     StatsAttack.innerHTML = `Attack: ${item.attack}`.replaceAll(null, '0');
     StatsDefense.innerHTML = `Defense: ${item.defense}`.replaceAll(null, '0');
@@ -57,6 +59,8 @@ function getCategories(category) {
   });
 }
 getCategories('equipment');
+
+creatures.addEventListener('click', () => { getCategories('creatures'); });
 
 const scrollTop = document.querySelector('.scroll-top');
 
