@@ -34,7 +34,7 @@ function getCategories(category) {
     IMG.src = item.image;
     Description.innerHTML = item.description;
     commonLocation.innerText = 'Common Locations:';
-    Location.innerText = `${item.common_locations}`.replaceAll(null, '');
+    Location.innerText = `${item.common_locations}`.replaceAll(null, 'No Common Locations');
     Stats.innerHTML = 'Stats';
     StatsAttack.innerHTML = `Attack: ${item.attack}`.replaceAll(null, '0');
     StatsDefense.innerHTML = `Defense: ${item.defense}`.replaceAll(null, '0');
