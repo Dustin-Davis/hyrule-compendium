@@ -14,7 +14,6 @@ function getCategories(category) {
   const app = fetchAPI('https://botw-compendium.herokuapp.com/api/v2/category' + '/' + category);
   const appData = JSON.parse(app);
   let newArray = appData.data;
-
   if (category === 'creatures') {
     newArray = appData.data.food.concat(appData.data.non_food);
   } else {
